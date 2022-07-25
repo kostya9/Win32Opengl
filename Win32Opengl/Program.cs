@@ -138,10 +138,6 @@ static unsafe void SetOpenglPixelFormat(HWND window)
     
     // Depth of z-buffer (we don't actually care about that for now)
     pfd.cDepthBits = 32;
-    
-    // We don't care about this field, the modern implementations of OpenGL ignore it
-    // TODO: delete?
-    pfd.iLayerType = PFD.PFD_MAIN_PLANE;
 
     HDC hdc = GetDC(window);
     int iPixelFormat;
