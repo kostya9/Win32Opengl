@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win32Opengl", "Win32Opengl\Win32Opengl.csproj", "{46D11E01-ED5C-481B-9B2D-0AFE020236B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FBABC5EF-EA25-4F47-8DCD-8259FFA156C1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		global.json = global.json
+		changing-color-window.gif = changing-color-window.gif
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46D11E01-ED5C-481B-9B2D-0AFE020236B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46D11E01-ED5C-481B-9B2D-0AFE020236B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46D11E01-ED5C-481B-9B2D-0AFE020236B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46D11E01-ED5C-481B-9B2D-0AFE020236B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
